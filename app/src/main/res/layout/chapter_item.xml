@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/chapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chapter 1"
+            android:fontFamily="@font/nunito_bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="topics"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito_semibold"
+            android:textSize="13dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <TextView
+                android:id="@+id/percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/black"
+                android:textSize="12dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

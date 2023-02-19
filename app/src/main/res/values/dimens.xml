@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_bend">115dp</dimen>
+    <dimen name="course_bend">80dp</dimen>
+
+</resources>
